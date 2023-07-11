@@ -1,0 +1,40 @@
+Epic:
+As a user I would like to have login page for two of my web applications Compliance Assurance and Policy manager. So that I can login and select which application to use.
+    User stories:
+    1. As a user, I want to be able to easily locate and access the login page so that I can begin the authentication process quickly.
+        Acceptance criteria:
+        1. The login page should be opened if user is not logged in.
+        2. The login page should be opened if user is logged in but session is expired.
+        3. The login page should be opened if user is logged in but session is expired and user is trying to access a page that requires authentication.
+    2. As a user, I want to input my username and password in clearly labeled fields so that I can securely log into the application.
+        Acceptance criteria:
+        1. The login page should have a username field.
+        2. The login page should have a password field.
+        3. The login page should have a login button.
+        4. The login page should have a company logo.
+    3. As a user, I want to see an error message if I entered incorrect login credentials so that I know to re-enter my details.
+        Acceptance criteria:
+        1. The login page should have a error message if user entered incorrect login credentials.
+    4. As a user, I want to have the option to show/hide my password while typing so that I can avoid making errors when entering it.
+        Acceptance criteria:
+        1. The login page should have a show/hide password button.
+    5. As a user, I want to be redirected to the home page (landing page) with the list of 2 application (Compliance Assurance and Policy Manager) so that I can click on one of them and be redirected to the application page.
+        Acceptance criteria:
+        1. After successful login user should be redirected to the home page.
+        2. The home page should have a list of 2 applications.
+        3. The home page should have a company logo.
+        4. The home page should have a logout button.
+    6. As a user, I want to be able to logout from the application so that I can securely exit the application.
+        Acceptance criteria:
+        1. The home page should have a logout button.
+        2. After logout user should be redirected to the login page.
+    7. As a user, I want to be able to click on one of the applications (Compliance Assurance or Policy Manager) so that I can be redirected to the application page.
+        Acceptance criteria:
+        1. The home page should have a list of 2 applications.
+        2. The home page should have a company logo.
+        3. The home page should have a logout button.
+        4. After clicking on one of the applications user should be redirected to the application page.
+    8. As a user, I want to be able to click on the company logo so that I can be redirected to the home page.
+        Acceptance criteria:
+        1. The home page should have a company logo.
+        2. After clicking on the company logo user should be redirected to the home page.
