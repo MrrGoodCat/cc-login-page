@@ -1,0 +1,72 @@
+/* General */
+$white: #FFFFFF;
+$black: #000000;
+$primary: #007cbe;
+$accent: #455a64;
+$icons: #526b7a;
+
+/* Background */
+$selected: #E5F2F9;
+$selected-light: #D9EBF5;
+$engage-bg: #f5f8fa;
+$dark-bg: #dbe6f0;
+
+/* Text */
+$default-text: rgba(#000000, 0.8);
+$grayed: rgba(#000000, 0.56);
+$disabled-text: rgba(#000000, 0.2);
+$validation: #cc0816;
+$label: #526b7a;
+$link: #056A9F;
+$light-text: #FFFFFF;
+$light-disabled: rgba(#FFFFFF, 0.2);
+
+/* Status */
+$green-dark: #278a33;
+$green-mid: #70b780;
+$green-light: #e9f5e9;
+$red-dark: #c13842;
+$red-mid: #e87c80;
+$red-light: #fdf2f3;
+$yellow-dark: #e0b029;
+$yellow-mid: #f6d155;
+$yellow-light: #fbf7ed;
+$blue-dark: #006ca6;
+$blue-mid: #78b3e8;
+$blue-light: #ebf7fe;
+
+/* Borders */
+$components-border: #bac5cc;
+$hover-border: #007cbe;
+$validation-border: #cc0816;
+$light-border: rgba(#000000, 0.16);
+
+/* Navigation */
+$hover-nav: rgba(#000000, 0.04);
+$clicked-nav: rgba(#000000, 0.08);
+$selected-light-nav: #D9EBF5;
+$selected-dark-nav: #007cbe;
+$selected-green-nav: #5cc88d;
+
+/* Buttons */
+$disabled-button: rgba(#f8f8f8, 0.6);
+
+/* Primary Button */
+$default-primary-button: #007cbe;
+$hover-primary-button: #0073a9;
+$pressed-primary-button: #00557d;
+
+/* Secondary Button */
+$default-secondary-button: #FFFFFF;
+$hover-secondary-button: #f9fafa;
+$pressed-secondary-button: #eceff1;
+
+/* Ghost Button */
+$default-ghost-button: rgba(#FFFFFF, 0);
+$hover-ghost-button: rgba(#5d7a87, 0.08);
+$pressed-ghost-button: rgba(#5d7a87, 0.16);
+
+/* Danger Button */
+$default-danger-button: #d1414b;
+$hover-danger-button: #c03c45;
+$pressed-danger-button: #8e2c33;

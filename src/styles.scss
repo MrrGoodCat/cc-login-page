@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import './styles/colors.scss';
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+  font-family: 'Tourney'; /* You can name it whatever you want */
+  src: url('./assets/fonts/Tourney-VariableFont.ttf') format('truetype'); /* Adjust path and filename to match yours */
+}
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  html,body {
+  margin: 0;
+  height: 100%;
+}

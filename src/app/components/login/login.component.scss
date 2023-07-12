@@ -1,4 +1,7 @@
+@import '../../../styles/colors.scss';
+
 .container {
+    color: $default-text;
     width: 300px;
     margin: auto;
     padding: 20px;
@@ -23,7 +26,7 @@
       input {
         padding: 10px;
         border-radius: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid $components-border;
       }
     }
   
@@ -31,14 +34,22 @@
       padding: 10px;
       border: none;
       border-radius: 5px;
-      background-color: #007bff;
-      color: white;
+      background-color: $default-primary-button;
+      color: $light-text;
       font-size: 16px;
       cursor: pointer;
   
       &:hover {
-        background-color: #0056b3;
+        background-color: $hover-primary-button;
       }
     }
   }
+  :host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; // This is 100% - 30% to account for the 30% top margin
+    //margin-top: 30vh; // This gives you a 30% margin from the top of the viewport
+  }
+  
   
